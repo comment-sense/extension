@@ -1,0 +1,39 @@
+{
+  "name": "@comment-sense/extension",
+  "displayName": "Comment Sense",
+  "version": "0.0.1",
+  "description": "AI browser extension analyzes sentiment in YouTube comments.",
+  "author": "Creight Dev <bit@creight.dev>",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "package": "plasmo package"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "^2.0.5",
+    "@radix-ui/colors": "^0.1.8",
+    "plasmo": "^0.67.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "3.2.7"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@plasmohq/prettier-plugin-sort-imports": "^3.6.3",
+    "@types/chrome": "0.0.219",
+    "@types/node": "18.14.6",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "husky": "^8.0.3",
+    "postcss": "8.4.21",
+    "prettier": "2.8.4",
+    "prettier-plugin-tailwindcss": "^0.2.4",
+    "typescript": "4.9.5"
+  },
+  "manifest": {
+    "host_permissions": [
+      "https://*/*"
+    ]
+  }
+}
