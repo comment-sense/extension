@@ -1,3 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
 
 @tailwind base;
+
+@layer base {
+  html,
+  body,
+  #__plasmo {
+    @apply h-full bg-neutral-3 dark:bg-neutralDark-1;
+  }
+  body {
+    @apply font-sans text-neutral-12 antialiased dark:text-neutralDark-12;
+  }
+}
