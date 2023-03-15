@@ -38,5 +38,6 @@
     "host_permissions": [
       "https://*/*"
     ]
-  }
+  },
+  "packageManager": "pnpm@7.29.0"
 }
